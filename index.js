@@ -64,7 +64,7 @@ const apiCall = () => {
     })
 }
 
-const task = cron.schedule('*/5 * * * *', () => {
+const task = cron.schedule(timeSchedule, () => {
     apiCall();
 }, {
     scheduled: false
