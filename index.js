@@ -29,7 +29,7 @@ const sendPushNotification = async (deviceToken, title, body) => {
 }
 
 app.post('/', (req, res) => {
-    console.log('api called for the post request');
+    console.log('api called for the post request', req.body.newToken);
     fs.writeFile(filePath, req.body.newToken, (err) => {
         if (err) {
             res.status(400).json({ message: "error" })
