@@ -1,2 +1,4 @@
 node_modules
-goog
+newToken.txt
+google-services.json
+passkey.json
