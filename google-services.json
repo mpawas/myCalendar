@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "268621640986",
+    "firebase_url": "https://mycalendar-3d739-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mycalendar-3d739",
+    "storage_bucket": "mycalendar-3d739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268621640986:android:d6252b91da03c0458128a3",
+        "android_client_info": {
+          "package_name": "com.myCalendar.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_mIEaj_QwfWNhkCxJyLj494Q65ek1IPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

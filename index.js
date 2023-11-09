@@ -67,7 +67,8 @@ const apiCall = () => {
 const task = cron.schedule(timeSchedule, () => {
     apiCall();
 }, {
-    scheduled: false
+    scheduled: true,
+    timezone: "Asia/Kathmandu"
 });
 
 task.start();
