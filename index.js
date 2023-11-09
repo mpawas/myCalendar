@@ -12,7 +12,7 @@ const bodyParser = require('body-parser');
 const filePath = 'newToken.txt';
 const password = 'Exper!ence4@ll';
 const url = 'https://www.drikpanchang.com/?geoname-id=1282988&&date=2023/11/08';
-const timeSchedule = '*/5 * * * *';
+const timeSchedule = '0 8-20/3 * * *';
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json());
